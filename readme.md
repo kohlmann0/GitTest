@@ -5,7 +5,7 @@ This is a test to see how well the GUI works from VSCode to Initialize a brand n
 
 **Test Complete (Summary):**
 
-So this is ~almost!~ super straight forward, except when it's not (So Close!). 
+So this is *almost* super straight forward, except when it's not (it's So Close!). 
 
 Fortunately, you don't have to do this very often. Unfortunately, the person most likely to use this guide is a newbie, who hasn't set-up Git yet in their VSCode instance.
 
@@ -27,7 +27,7 @@ If you've been following along up until this point, this is where it breaks down
 
 <br>
 <br>
-**Fix #1**
+** Fix #1 **
 
 If you get the error, and then look at the GitLog (an button on the Error Dialog box should take you there), you will see that you need to set your username and email address. At the time of this writing, I couldn't figure out how to do that from the GUI, so here we go with a few simple terminal commands.
 
@@ -40,7 +40,7 @@ You will need to go to the Terminal (Ctrl+Shift+`) and enter these commands. (re
 
 <br>
 <br>
-**Fix #2**
+** Fix #2 **
 
 If you get the error, the whole process *probably* aborted... which means, it never created the "Remote" connection in the configuration. To do that manually, in the Source Control tab again, there is a section called "Remotes".
 
@@ -51,13 +51,16 @@ If you get the error, the whole process *probably* aborted... which means, it ne
 
 <br>
 <br>
-**Fix #3**
+** Fix #3 **
 Last but not least, if the process aborted originally, it probably didn't finish the commit, and probably didn't push the code changes. To do that...
 
 1. Save any file changes you may have made (for example, editing this .md file)
 2. At the top of the Source control box, give it a commit message. **Do Not Hit Commit Yet!** (that's for all the new people).
 3. Under "Changes" hit the Plus sign (Stage Changes) for whatever file you want to Commit and Push.
 4. It's somewhat frowned upon to "Commit and Push" in one step, *especially* to the master branch, but just for the sake of finishing this summary off fast... "Select Commit & Push" from the drop down, and it ***SHOULD*** push all of your staged changes directly to your shiny new Git-Hub Repository.
+
+
+Once you've done these three fix's for your first project, everytime after that should run super smooth. It's just getting that initial set-up straight. Even on other projects, it should "Just Work" once you've done the first one. 
 
 Check back later when I create a Docker Container Dev environment in a new repository.
 
